@@ -10,58 +10,59 @@ CREATE TABLE IF NOT EXISTS `invoice` (
     ); 
 
 -- ALTER TABLE - ADD Column
-/*
-ALTER TABLE 
-	 orders
-ADD 
-     invoice_id bigint(15) NOT NULL; */
 
 ALTER TABLE 
-	orders
+    orders
 ADD 
-	order_datetime DATETIME NOT NULL;
+    invoice_id bigint(15) NOT NULL; 
+
+ALTER TABLE 
+    orders
+ADD 
+    order_datetime DATETIME NOT NULL;
     
 ALTER TABLE 
-	 orders
+    orders
 ADD 
-     quantity INT NOT NULL;
+    quantity INT NOT NULL;
      
 -- ALTER TABLE - DROP Column
+
 ALTER TABLE 
-	orders
+    orders
 DROP COLUMN 
-	transaction_type;
+    transaction_type;
     
 ALTER TABLE 
-	orders
+    orders
 DROP COLUMN 
-	transaction_moment;
+    transaction_moment;
     
 ALTER TABLE 
-	orders
+    orders
 DROP COLUMN 
-	amount;
+    amount;
     
 -- ALTER TABLE - MODIFY COLUMN
 ALTER TABLE 
     customer
 MODIFY COLUMN 
-	phone_number BIGINT(15) NOT NULL;
+    phone_number BIGINT(15) NOT NULL;
     
 ALTER TABLE 
     employee
 MODIFY COLUMN 
-	position varchar(30) NOT NULL;    
+    position varchar(30) NOT NULL;    
 
 ALTER TABLE 
     department
 MODIFY COLUMN 
-	street varchar(50) NOT NULL;
+    street varchar(50) NOT NULL;
 
 ALTER TABLE 
     department
 MODIFY COLUMN 
-	building_no INT(4);
+    building_no INT(4);
 
 ALTER TABLE
     
@@ -80,7 +81,7 @@ ALTER TABLE
 ADD CONSTRAINT 
     orders_fk3
 FOREIGN KEY 
-	(invoice_id)
+    (invoice_id)
 REFERENCES 
     invoice(invoice_id);
     
@@ -89,7 +90,7 @@ ALTER TABLE
 ADD CONSTRAINT 
     invoice_fk0
 FOREIGN KEY 
-	(employee_id)
+    (employee_id)
 REFERENCES 
     employee(employee_id);
     
@@ -103,7 +104,7 @@ SET DEFAULT
 ALTER TABLE 
     employee
 ADD UNIQUE 
-	(user_name);
+    (user_name);
 
     
 
