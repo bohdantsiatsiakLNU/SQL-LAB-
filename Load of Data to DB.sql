@@ -194,7 +194,7 @@ INSERT INTO customer (customer_id,first_name,last_name,genger,birth_date,phone_n
 
 /*
 (56, 'Leonid','Musiyenko','M','1991-06-06','380638555820','LeonidMusiyenko@mail.com',25),
--- в цьому рядку потрібно забрати одинарні лапки з номеру телефону, оскільки він нас має формат Integer
+-- в цьому рядку потрібно забрати одинарні лапки з номеру телефону, оскільки він має формат Integer
 */
 -- DONE
 
