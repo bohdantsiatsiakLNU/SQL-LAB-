@@ -65,7 +65,7 @@ MODIFY COLUMN
     building_no INT(4);
 
 ALTER TABLE
-    
+    invoice
 ADD PRIMARY KEY (invoice_id);
 
 ALTER TABLE 
