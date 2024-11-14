@@ -1,5 +1,5 @@
 USE company;
-/*
+
 SELECT
     * 
 FROM 
@@ -140,8 +140,6 @@ FROM
     employee
 ORDER By 
     last_name ASC;
-    
-*/
     
 SELECT
     last_name "Last Name",
