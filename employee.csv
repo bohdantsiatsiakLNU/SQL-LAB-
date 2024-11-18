@@ -1,0 +1,51 @@
+employee_id,user_name,first_name,last_name,position,employment_date,department_id,manager_id,rate,bonus
+1,LyubomyrMartynenko,Lyubomyr,Martynenko,CEO,1998-01-01,1,1,10000,NULL
+2,LinaSirenko,Lina,Sirenko,"Financial Analyst",2016-08-20,1,1,8500,NULL
+3,OksanaZayika,Oksana,Zayika,Accountant,2007-10-24,1,1,6500,NULL
+4,YaroslavTymchuk,Yaroslav,Tymchuk,"Human Resources",2018-01-11,1,1,6000,NULL
+5,HannaTarasyuk,Hanna,Tarasyuk,"Marketing Specialist",2003-02-08,1,1,6000,NULL
+6,MarharytaDyachuk,Marharyta,Dyachuk,"Administrative assistant",2009-08-11,1,1,4500,NULL
+7,SerhijHlavatskykh,Serhij,Hlavatskykh,"Service Assistant",2020-01-18,1,1,3200,NULL
+8,MykolaBlyznyuk,Mykola,Blyznyuk,"Service Assistant",1999-11-01,2,1,2500,NULL
+9,VladyslavKryvonis,Vladyslav,Kryvonis,Manager,2013-03-22,1,1,7000,NULL
+10,AlinaHrytsenko,Alina,Hrytsenko,Manager,2016-10-04,2,1,7000,NULL
+11,MyroslavStepanova,Myroslav,Stepanova,Manager,1999-08-05,3,1,7000,NULL
+12,PylypGetman,Pylyp,Getman,Manager,2009-01-08,4,1,7000,NULL
+13,OksanaKhomenko,Oksana,Khomenko,Manager,2016-06-14,5,1,7000,NULL
+14,ArturZayika,Artur,Zayika,Manager,1999-07-20,1,1,7000,NULL
+15,StanislavYaskiv,Stanislav,Yaskiv,"Manager Assistant",2014-02-18,1,9,5500,NULL
+16,JosypYatsenko,Josyp,Yatsenko,"Manager Assistant",2016-07-22,1,10,5500,NULL
+17,TamaraTymchuk,Tamara,Tymchuk,"Manager Assistant",2011-11-29,2,11,5500,NULL
+18,ZynayidaKravchenko,Zynayida,Kravchenko,"Manager Assistant",2016-05-30,2,12,5500,NULL
+19,LidiyaGoncharenko,Lidiya,Goncharenko,"Manager Assistant",2014-04-12,3,13,5500,NULL
+20,TarasOkhrimenko,Taras,Okhrimenko,"Senior Consultant",2012-10-17,1,9,5500,275
+21,ViktorDemchuk,Viktor,Demchuk,Consultant,2018-05-14,1,9,4500,225
+22,OlhaSayenko,Olha,Sayenko,"Assistant Consultant",2006-12-28,1,9,4000,200
+23,AntoninaVlasyuk,Antonina,Vlasyuk,Seller,2016-03-08,1,9,3500,175
+24,YuliyaSerporiz,Yuliya,Serporiz,Seller,2008-07-20,1,9,3500,175
+25,LiliyaPanchenko,Liliya,Panchenko,"Senior Consultant",2004-01-20,2,10,5500,275
+26,YevheniyaParkhomenko,Yevheniya,Parkhomenko,Consultant,2007-06-16,2,10,4500,225
+27,LarysaMusiyenko,Larysa,Musiyenko,"Assistant Consultant",2019-02-09,2,10,4000,200
+28,StefanKucherenko,Stefan,Kucherenko,"Assistant Consultant",2006-07-03,2,10,4000,200
+29,IvanFesenko,Ivan,Fesenko,Seller,2017-10-06,2,10,3500,175
+30,HenadijNazarenko,Henadij,Nazarenko,Seller,2013-05-26,2,10,3500,175
+31,DenysPetrenko,Denys,Petrenko,Seller,2010-05-19,2,10,3500,175
+32,NatalyaChernenko,Natalya,Chernenko,"Senior Consultant",2004-11-16,3,11,5500,275
+33,HannaDudnyk,Hanna,Dudnyk,Consultant,2000-11-11,3,11,4500,225
+34,HalynaShirman,Halyna,Shirman,"Assistant Consultant",2018-09-02,3,11,4000,200
+35,LidiyaPylypenko,Lidiya,Pylypenko,"Assistant Consultant",2007-03-30,3,11,4000,200
+36,NadiyaMedvid,Nadiya,Medvid,Seller,2007-03-07,3,11,3500,175
+37,TarasRudyk,Taras,Rudyk,Seller,2001-08-02,3,11,3500,175
+38,ViktorKovalov,Viktor,Kovalov,Seller,2002-12-19,3,11,3500,175
+39,PanasSirenko,Panas,Sirenko,"Senior Consultant",2007-09-15,4,12,5500,275
+40,YaroslavLysyuk,Yaroslav,Lysyuk,Consultant,2008-02-10,4,12,4500,225
+41,AdamMazurenko,Adam,Mazurenko,"Assistant Consultant",2016-11-19,4,12,4000,200
+42,AntonVdovychenko,Anton,Vdovychenko,Seller,2004-07-28,5,13,3500,175
+43,SofiyaKyrylenko,Sofiya,Kyrylenko,"Senior Consultant",2011-12-09,5,13,5500,275
+44,UlyanaDyachuk,Ulyana,Dyachuk,Consultant,2012-04-26,5,13,4500,225
+45,HeorhijMaksymchuk,Heorhij,Maksymchuk,"Assistant Consultant",2016-02-16,5,13,4000,200
+46,VladyslavaBuryak,Vladyslava,Buryak,Seller,2016-01-08,5,13,3500,175
+47,LidiyaZayika,Lidiya,Zayika,"Senior Consultant",2015-03-11,5,14,5500,NULL
+48,NadiyaSavenko,Nadiya,Savenko,Consultant,2017-09-13,5,14,4500,NULL
+49,AlinaOsadchuk,Alina,Osadchuk,"Assistant Consultant",2014-01-05,5,14,4000,NULL
+50,DenysKobzar,Denys,Kobzar,Seller,2016-10-17,5,14,3500,NULL
